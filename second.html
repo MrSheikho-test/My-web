@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background: rgb(29, 185, 199)
+}
+.head{
+    text-align: center;
+    color: #0d98ba;;
+    background-image: url(background.jpg);
+    background-position: cover;
+}
+.survey{
+    margin top: 25px;
+    font-size: 25px;
+}
+.sheikho{
+    font-size: 40px;
+}
+.content{
+    margin: 50px 50px 35px 50px;
+    color: white;
+    background-color:white ;
+    padding-bottom: 50px;
+}
+.table{
+    color: black;
+}
+.table label{
+    width: 100px;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.table input{
+width: 80vw;
+height: 25px;
+margin-bottom:20px ;
+}
+.option{
+    width: 50%;
+    margin-bottom: 5px;
+}
+select{
+    width: 80vw;
+    height: 35px;
+}
+.apply{
+    color: black;
+}
+.apply p{
+font-size: 27px;
+margin-top: 25px;
+font-weight: bold;
+}
+.apply label{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-left: 25px;
+}
+.selectbox{
+    color: black;
+}
+.selectbox p{
+    font-size: 27px;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    }
+    .selectbox label{
+        margin-bottom: 15px;
+        margin-left: 25px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .end p{
+        color: black;
+        font-size: 27px;
+margin-top: 25px;
+font-weight: bold;
+    }
+    button{
+        background: green;
+        margin-left: 35vw;
+        height: 35px;
+        width: 150px;
+        border-radius: 25%;
+        margin-top: 20px;
+    }
+    label .option{
+        width: 50px;
+        font-size: 5px;
+    }
+p{
+    font-size: 27px;
+    margin-top: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+footer{
+    background-image: url(/background.jpg);
+  height: 100vh;
+  height: 100px;
+}
+footer p {
+    color: #0d98ba;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+textarea ::placeholder{
+    size: 25px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="sheikho">
+                <h1>MrSheikho</h1>
+            </div>
+                <div class="survey">
+                    <h3>My Survey Form</h3>
+                </div>
+            </div>
+            </header>
+                <div class="content">
+                    <div class="table">
+                    <form>
+                        <label>NAME</label>
+                        <input type="text" placeholder="YOUR NAME">
+                        <br>
+                        <label>
+                        EMAIL
+                        </label>
+                        <input type="email" placeholder="YOUR EMAIL">
+                        <br>
+                        <label>NUMBER</label>
+                        <input type="number" placeholder="YOUR NUMBER">
+                        <br>
+                        <label>AGE</label>
+                        <input type="number" placeholder="YOUR AGE">
+                        <br>
+                         <p>WHAT OPTION DESCRIBES YOU</p>
+                        <SELEct>
+                            <option value="student">STUDENT</option>
+                            <option value="intern">INTERN</option>
+                            <option value="learner">LEARNER</option>
+                        </SELEct>
+
+                    </form>
+                </div>
+                <div class="apply">
+                   <p>WOULD YOU LIKE TO APPLY</p>
+                    <BR></BR>
+                    <LABEl for="apply 1">YES</LABEl>
+                    <input type="radio" name="yes" id="apply 1">
+                    <BR></BR>
+                    <LABEl for="apply 2">NO</LABEl>
+ <input type="radio" name="yes" id="apply 2">
+            </div>
+            <div class="selectbox">
+            <p>WHAT WOULD YOU LIKE TO CHOOSE</p>
+            <LABEl for="1">PHYTON
+                <input type="checkbox" id="1">
+            </LABEl>
+            <br>
+            <LABEl for="4">HTML
+                <input type="checkbox" id="4">
+            </LABEl>
+            <br>
+            <LABEl for="3">CSS   
+                <input type="checkbox" id="3">
+            </LABEl>
+            <br>
+            <LABEl for="5"> REACT
+                <input type="checkbox" id="5">
+            </LABEl>
+            <br>
+            <LABEl for="6">ANGULAR
+                <input type="checkbox" id="6">
+            </LABEl>
+            <br>
+            <LABEl for="7">   C++
+                <input type="checkbox" id="7">
+            </LABEl>
+            <br>
+            <LABEl for="2">   C
+                <input type="checkbox" id="2">
+            </LABEl>
+            </div>
+            <div class="end">
+                
+            <P>ENTER YOUR MESSAGE</P>
+                
+                <textarea name="YOUR MESSAGE" rows="10" cols='100' placeholder="WRITE YOUR MESSAGE HERE" ></textarea>
+            </div>
+            <div class="button">
+                <button>
+                    SUBMIT
+                </button>
+            </div>
+                </div>
+<FOOter>
+    <p>THANKS FOR VISITING</p>
+    <P>REGARDS: MrSheikho</P>
+</FOOter>
+</body>
+</html>
